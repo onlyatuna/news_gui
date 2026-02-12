@@ -414,6 +414,7 @@ class ModernNewsBotGUI:
                     prompt = f"""
                     請透過 Google 搜尋關於「{keyword}」的最新新聞。
                     今天是 {today}。
+                    發佈日期請盡量在最近 7 天內。
                     請找出 10 則不同的新聞事件。
                     回傳 JSON 列表，包含：title, source, date, link, summary (50-100字繁體中文)。
                     """

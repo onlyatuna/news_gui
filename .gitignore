@@ -1,8 +1,10 @@
 # 金鑰與敏感資料（勿上傳）
 credentials.json
 settings.json
+python_gui/settings.json
 *.json
 !settings.example.json
+!google_apps_script/appsscript.json
 
 # Python
 __pycache__/
