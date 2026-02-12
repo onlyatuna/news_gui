@@ -1,0 +1,11 @@
+# Google Sheets 串接
+gspread>=6.0.0
+
+# Google 驗證 (Service Account 核心庫)
+google-auth>=2.25.0
+
+# Google Gemini AI (最新版 SDK)
+google-genai>=0.3.0
+
+# 打包工具 
+pyinstaller>=6.3.0
